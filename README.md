@@ -1,15 +1,7 @@
-# Yubico Beta
+# Homebrew tap for Yubico beta software
 
-## How do I install these formulae?
-`brew install yubico/beta/<formula>`
-
-Or `brew tap yubico/beta` and then `brew install <formula>`.
-
-Or install via URL (which will not receive updates):
-
+## How do I install the beta version of Yubico Authenticator?
 ```
-brew install https://raw.githubusercontent.com/Yubico/homebrew-beta/master/Formula/<formula>.rb
+brew tap yubico/beta
+brew cask install yubioath-desktop-beta
 ```
-
-## Documentation
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).

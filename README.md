@@ -1,7 +1,17 @@
 # Homebrew tap for Yubico beta software
 
-## How do I install the beta version of Yubico Authenticator?
+## Yubico Authenticator for Desktop
+
+### How do I install the beta version?
 ```
-brew tap yubico/beta
-brew cask install yubioath-desktop-beta
+brew cask install yubico/beta/yubioath-desktop-beta
+```
+### How do I upgrade to the latest beta?
+```
+brew cask upgrade yubioath-desktop-beta
+```
+### How do I uninstall?
+```
+brew cask uninstall yubioath-desktop-beta'
+brew untap yubico/beta
 ```

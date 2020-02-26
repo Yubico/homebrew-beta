@@ -12,6 +12,6 @@ brew cask upgrade yubioath-desktop-beta
 ```
 ### How do I uninstall?
 ```
-brew cask uninstall yubioath-desktop-beta'
+brew cask uninstall yubioath-desktop-beta
 brew untap yubico/beta
 ```

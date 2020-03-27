@@ -1,7 +1,7 @@
 cask 'yubioath-desktop-beta' do
-  version '5.0.3-beta1'
-  sha256 'c590c9e513c998b7b136ddfa5086a7f27913292fd9c45c1598dfc709f99d8b3c'
-  url "https://github.com/Yubico/yubioath-desktop/releases/download/yubioath-desktop-5.0.3-beta1/yubioath-desktop-5.0.3-beta1-mac.pkg"
+  version '5.0.3-beta2'
+  sha256 '53f3240292f37432c5df60d8085261e64fb0359471b02e233b2f4e0ced38738f'
+  url "https://github.com/Yubico/yubioath-desktop/releases/download/yubioath-desktop-5.0.3-beta2/yubioath-desktop-5.0.3-beta2-mac.pkg"
   name 'Yubico Authenticator (Beta)'
   homepage 'https://developers.yubico.com/yubioath-desktop/'
   depends_on macos: '>= :high_sierra'
